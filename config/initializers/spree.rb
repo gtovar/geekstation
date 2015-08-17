@@ -19,6 +19,7 @@ end
 
 Spree.user_class = "Spree::User"
 
+#Config S3 Amazon Store
 if Rails.env.production?
 	attachment_config = {
 
