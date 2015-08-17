@@ -19,6 +19,9 @@ end
 
 Spree.user_class = "Spree::User"
 
+SpreeI18n::Config.available_locales = [:'es-MX', :en] # displayed on translation forms
+SpreeI18n::Config.supported_locales = [:'es-MX', :en] # displayed on frontend select box
+
 #Config S3 Amazon Store
 if Rails.env.production?
 	attachment_config = {
