@@ -39,9 +39,9 @@ if Rails.env.production?
 		url:            ":s3_domain_url",
 
 		styles: {
-			mini:     "100x100>",
-			small:    "200x200>",
-			product:  "440x440>",
+			mini:     "48x48>",
+			small:    "100x100>",
+			product:  "240x240>",
 			large:    "600x600>"
 		},
 
